@@ -14,11 +14,11 @@ def minutes_in_day(x):
 
     Raise a custom NegativeDuration exception if x < 0.
     """
-    #class NegativeDuration(RuntimeError):
-    #pass
-    #def minutes_in_day
-    #if x < 0:
-    #    raise NegativeDuration
+    class NegativeDuration(RuntimeError):
+        pass
+    def minutes_in_day():
+        if x < 0:
+         raise NegativeDuration
 
 
 def minutes_in_week(x):
@@ -34,8 +34,8 @@ def list_of_squares(n):
     [0, 1, 4]
     """
     l = []
-    lambda
-    pass
+    
+    return
 
 
 def product_of_list(l):
@@ -44,7 +44,10 @@ def product_of_list(l):
     >>> product_of_list([2,3,4])
     24
     """
-    pass
+    l = []  
+    product_of_list.mul
+    return l
+
 
 
 def price_search(articles, name):
@@ -57,4 +60,5 @@ def price_search(articles, name):
     >>> price_search("Doom")
     25
     """
+
     pass
